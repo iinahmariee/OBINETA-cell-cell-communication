@@ -1,1 +1,2 @@
-vhb
+Interactor_A,UniProt_A,Interactor_B,UniProt_B,Interaction_Type,Detection_Method,Host_Organism,PMID,MI_Score,Accession
+DLL4,Q9NR61,NOTCH1,P46531,Physical association,Solid phase assay,In vitro,32822567,0.4,EBI-64056061 
