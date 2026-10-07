@@ -96,30 +96,39 @@ Strongly supported: the DLL4-NOTCH1 pair. Inferred: signaling between neighborin
 ## Laboratory Activity Questions
 
 1. What sender cell did you choose, and in what tissue or biological context does it act?
+
 ·       Endothelial cell (lining of blood and lymphatic vessels), acting in angiogenesis.
 
 2. What signaling molecule did you identify, and what evidence supports its production or presentation by the sender cell?
+
 ·       DLL4. HPA shows it is cell type enhanced in vascular and lymphatic endothelial cells and predicts it to be membrane-bound.
 
 3. What receptor receives the signal, and which receiver cell did you select?
+
 ·       NOTCH1 receives the signal. The receiver cell is a neighboring vascular endothelial cell, where HPA shows NOTCH1 is enhanced.
 
 4. What type of cell-to-cell signaling is represented: paracrine, endocrine, autocrine, or contact-dependent?
+
 ·       Contact-dependent. DLL4 is membrane-bound, so it needs direct cell-cell contact.
 
 5. Which proteins in your STRING network appear most relevant to the receptor-associated response? Explain briefly.
+
 ·       HEYL and NRARP, which STRING describes as downstream effectors of Notch signaling. LFNG is also relevant because it modifies NOTCH1 activity.
 
 6. What enriched pathway or biological process is consistent with your proposed mechanism?
+
 ·       KEGG hsa04330, Notch signaling pathway (FDR 1.73e-15), and GO:0008593, Regulation of Notch signaling pathway (FDR 1.70e-09).
 
 7. What did IntAct show for the molecular interaction you examined? What type of evidence was reported?
+
 ·       One record (EBI-64056061): solid phase assay, in vitro, human proteins, PMID 32822567, MI score 0.4. It reports a physical association, not an interaction shown in endothelial cells.
 
 8. Which parts of your final model are strongly supported, and which parts remain an inference?
+
 ·       Strongly supported: the DLL4-NOTCH1 ligand-receptor pair. Inferred: signaling between neighboring endothelial cells, HEYL and NRARP acting downstream, restrained sprouting as the response, and the NICD and RBPJ step.
 
 9. What cellular response is expected in the receiver cell, and why?
+
 ·       Restrained endothelial sprouting. UniProt says DLL4 negatively regulates endothelial proliferation, migration, and angiogenic sprouting.
 
 
