@@ -10,13 +10,13 @@
 
 Can an endothelial cell signal to a neighboring endothelial cell through DLL4 and NOTCH1 during angiogenesis?
 
-## 2. Chosen sender cell and biological context
+## PART A. Chosen sender cell and biological context
 
 - **Sender cell:** Endothelial cell, the single layer lining blood and lymphatic vessels
 - **Context:** Angiogenesis (new blood vessel formation during growth and tissue repair)
 - **Why it is a meaningful sender:** it is in direct contact with neighboring cells and signals to them during vessel growth
 
-## 3. Candidate ligand and evidence for sender-cell expression
+## PART B. Candidate ligand and evidence for sender-cell expression
 
 - **Ligand:** DLL4 (Delta-like canonical Notch ligand 4), UniProt Q9NR61
 - **Evidence (Human Protein Atlas):** cell type enhanced in vascular and lymphatic endothelial cells; expression cluster "Endothelial cells - Angiogenesis & vascular immunity"; not detected in immune cells; predicted location: membrane
@@ -25,7 +25,7 @@ Can an endothelial cell signal to a neighboring endothelial cell through DLL4 an
 
 ![Sender cell evidence](figures/01_sender_cell_evidence.png)
 
-## 4. Receptor and receiver cell with supporting evidence
+## PART C. Receptor and receiver cell with supporting evidence
 
 - **Receptor:** NOTCH1 (Notch receptor 1), UniProt P46531
 - **Receiver cell:** a neighboring endothelial cell
@@ -33,7 +33,7 @@ Can an endothelial cell signal to a neighboring endothelial cell through DLL4 an
 - **Limits:** NOTCH1 is also enhanced in neutrophils, so it is not endothelial-exclusive.
 - **Checkpoint sentence:** The endothelial cell presents DLL4, which can signal through NOTCH1 on a neighboring endothelial cell in the context of angiogenesis.
 
-## 5. OmniPath findings
+## OmniPath findings
 
 - DLL4 is annotated as a ligand and cell_surface_ligand (transmembrane, transmitter): 18 records with both filters, 5 of them cell_surface_ligand
 - Directed interactions: DLL4 → NOTCH1 (29 references), NOTCH4 (20), NOTCH2 (11), NOTCH3 (11)
@@ -43,7 +43,7 @@ Can an endothelial cell signal to a neighboring endothelial cell through DLL4 an
 ![OmniPath ligand annotation](figures/02a_omnipath_ligand.png)
 ![OmniPath receptor interactions](figures/02b_omnipath_receptor.png)
 
-## 6. STRING network interpretation
+## PART D. STRING network interpretation
 
 - **Query:** NOTCH1 and DLL4, *Homo sapiens*, STRING v12.5
 - **Network:** 7 proteins and 16 edges (5 expected by chance), PPI enrichment p = 9.13e-05
@@ -55,7 +55,7 @@ Can an endothelial cell signal to a neighboring endothelial cell through DLL4 an
 
 ![STRING network](figures/03_string_network.png)
 
-## 7. IntAct validation
+## PART E. IntAct validation
 
 | Item | Record |
 |---|---|
@@ -72,7 +72,7 @@ Can an endothelial cell signal to a neighboring endothelial cell through DLL4 an
 
 ![IntAct evidence](figures/04_intact_evidence.png)
 
-## 8. Final model and interpretation
+## PART F. Final model and interpretation
 
 ![Final model](figures/05_final_model.png)
 
@@ -80,7 +80,7 @@ The Human Protein Atlas (HPA) reports DLL4 (Delta-like canonical Notch ligand 4)
 
 Strongly supported: the DLL4-NOTCH1 pair. Inferred: signaling between neighboring endothelial cells, HEYL and NRARP acting downstream, restrained sprouting, and the NICD (Notch intracellular domain) and RBPJ step, which comes from the NOTCH1 annotation, not the network.
 
-## 9. References and database links
+## References and database links
 
 - Unique sender (HPA endothelial and mural cells): https://www.proteinatlas.org/humanproteome/single+cell/single+cell+type/endothelial+and+mural+cells
 - Signal/ligand (HPA, DLL4): https://www.proteinatlas.org/ENSG00000128917-DLL4
