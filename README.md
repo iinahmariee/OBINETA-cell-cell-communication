@@ -1,4 +1,5 @@
-# Endothelial DLL4-NOTCH1 Signaling Between Neighboring Cells in Angiogenesis
+# LABORATORY ACTIVITY Cell-to-Cell Communication
+Endothelial DLL4-NOTCH1 Signaling Between Neighboring Cells in Angiogenesis
 
 **Name:** Obiñeta, Inah Marie
 
