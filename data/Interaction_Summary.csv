@@ -1,15 +1,2 @@
-Field,Value
-Accession,Interaction AC,EBI-64056061
-Interaction_Type,Physical association
-Detection_Method,Solid phase assay
-Host_Organism,In vitro
-Publication_Title,A Human IgSF Cell-Surface Interactome Reveals a Complex Network of Protein-Protein Interactions
-Journal,Cell
-Publication_Date,01/01/2020
-PubMed_ID,32822567
-MI_Score,0.4
-Interactor_A,DLL4
-UniProt_A,Q9NR61
-Interactor_B,NOTCH1
-UniProt_B,P46531
-d
+Interactor_A,UniProt_A,Interactor_B,UniProt_B,Interaction_Type,Detection_Method,Host_Organism,Interaction_Accession,PubMed_ID,MI_Score,Publication_Title,Journal,Publication_Date
+DLL4,Q9NR61,NOTCH1,P46531,Physical association,Solid phase assay,In vitro,EBI-64056061,32822567,0.4,A Human IgSF Cell-Surface Interactome Reveals a Complex Network of Protein-Protein Interactions,Cell,01/01/2020
